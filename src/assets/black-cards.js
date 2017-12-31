@@ -14,13 +14,11 @@ const blackCards = [
   'Kids these days just don\'t understand about ___________',
   'I\'m not afraid of a zombie apocolypse because I\'ve already lived through ________________.',
   'Am I a bad Mennonite if I don\'t have any ________________?',
-  'There\'s no such thing as ____________.'
-  // Favorite vacation All is fair in ________ and
-  // ___________ (pick 2)
-  // What I\'m giving up for Lent It\'s no use crying over
-  // _____________.
-  // My utopia includes
-  // _______________
+  'There\'s no such thing as ____________.',
+  // Favorite vacation All is fair in ________ and ___________ (pick 2)
+  'What I\'m giving up for Lent:',
+  'It\'s no use crying over _____________.',
+  'My utopia includes _______________'
   // All ________ is good
   // _________ (pick 1)
   // __________ is surely one of the
