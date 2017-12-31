@@ -6,15 +6,17 @@
     </v-toolbar>
     <v-content>
       <v-container fluid>
-          <v-layout column align-center xs8 offset-xs2 class="pb-3">
-            <question-area />
-          </v-layout>
-          <v-layout column align-center xs8 offset-xs2>
-            <answer-area :friends="friends" />
-          </v-layout>
-          <v-layout column align-center xs8 offset-xs2>
-            <v-slider label="Friends" v-model="friends" thumb-label min=1 max=10></v-slider>
-          </v-layout>
+        <v-layout row align-center>
+          <v-flex offset-xs2 xs2>Number of friends:</v-flex>
+          <v-flex xs5><v-slider v-model="friends" thumb-label min=1 max=10></v-slider></v-flex>
+          <v-flex xs2>{{friends}}</v-flex>
+        </v-layout>
+        <v-layout column align-center xs8 offset-xs2 class="pb-3">
+          <question-area />
+        </v-layout>
+        <v-layout column align-center xs8 offset-xs2>
+          <answer-area :friends="friends" />
+        </v-layout>
         <past-answers />
       </v-container>
     </v-content>

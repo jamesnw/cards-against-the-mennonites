@@ -2,6 +2,8 @@
 
 > Cards Against the Mennonites
 
+Based on the brilliant game by [The Drunken Mennonite](https://slklassen.com/about/cards-against-the-mennonites/) which was based on the other game.
+
 ## Build Setup
 
 ``` bash
